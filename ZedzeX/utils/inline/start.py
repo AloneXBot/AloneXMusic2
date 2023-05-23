@@ -36,10 +36,10 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="🍁 ᴜᴘᴅᴀᴛᴇs 🍁", url=f"{config.SUPPORT_CHANNEL}"
+                text="🍁 ᴜᴘᴅᴀᴛᴇs 🍁", url=f"config.SUPPORT_CHANNEL
             ),
             InlineKeyboardButton(
-                text="💫 sᴜᴘᴘᴏʀᴛ 💫", url=f"{config.SUPPORT_GROUP}"
+                text="💫 sᴜᴘᴘᴏʀᴛ 💫", url=config.SUPPORT_GROUP
             )
         ],
         [
@@ -50,7 +50,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="✨ ᴏᴡɴᴇʀ ✨", url=f"{config.OWNER_ID},
+                text="✨ ᴏᴡɴᴇʀ ✨", user_id=OWNER
             ),
             InlineKeyboardButton(
                 text="❄️ sᴏᴜʀᴄᴇ ❄️", url=f"https://github.com/AloneXBot/AloneXMusic",
