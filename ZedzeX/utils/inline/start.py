@@ -50,7 +50,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="✨ ᴏᴡɴᴇʀ ✨",  user_id=OWNER),
+                text="✨ ᴏᴡɴᴇʀ ✨", user_id=OWNER),
             ),
             InlineKeyboardButton(
                 text="❄️ sᴏᴜʀᴄᴇ ❄️", url=f"https://github.com/AloneXBot/AloneXMusic",
